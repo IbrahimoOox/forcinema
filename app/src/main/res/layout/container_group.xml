@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_group"
+  android:layout_width="match_parent"
+  android:layout_height="812dp">
+  
+  <FrameLayout
+    android:id="@+id/container_group1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <ImageView
+      android:id="@+id/image_rectangle"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/image_rectangle"
+      android:scaleType="centerCrop" />
+    
+    <ImageView
+      android:id="@+id/image_iconify"
+      android:layout_width="28dp"
+      android:layout_height="22dp"
+      android:layout_marginLeft="97dp"
+      android:layout_marginRight="271dp"
+      android:layout_marginTop="107dp"
+      android:layout_marginBottom="683dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/image_iconify" />
+
+    <FrameLayout
+      android:id="@+id/container_group2"
+      android:layout_width="334dp"
+      android:layout_height="115dp"
+      android:layout_marginRight="30dp"
+      android:layout_marginTop="107dp"
+      android:layout_gravity="top|right">
+      
+      <ImageView
+        android:id="@+id/image_rectangle1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image_rectangle1" />
+      
+      <ImageView
+        android:id="@+id/image_fs_dlyy_s_l"
+        android:layout_width="94dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="9dp"
+        android:layout_gravity="left"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image_fs_dlyy_s_l" />
+      
+      <TextView
+        android:id="@+id/text_cinema_paris_oujda"
+        android:layout_width="99dp"
+        android:layout_height="26.1dp"
+        android:layout_marginLeft="218dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="82.95dp"
+        android:layout_marginBottom="5.95dp"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:lineHeight="12.1dp"
+        android:maxLines="2"
+        android:text="Cinema paris oujda"
+        android:textColor="#FFFFC107"
+        android:textSize="10sp" />
+      
+      <TextView
+        android:id="@+id/text_salle_18h30"
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:layout_marginLeft="253dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12.5dp"
+        android:layout_marginBottom="-0.5dp"
+        android:layout_gravity="top"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Salle 2  ,    : 18h30."
+        android:textColor="#FFF9F9FA"
+        android:textSize="8sp" />
+      
+      <TextView
+        android:id="@+id/text_the_doom"
+        android:layout_width="83dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="The Doom"
+        android:textColor="#FFF9FBFF"
+        android:textSize="16sp" />
+      
+      <TextView
+        android:id="@+id/text_dots"
+        android:layout_width="187dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:lineHeight="16.94dp"
+        android:text="........................... ..........................."
+        android:textColor="#FFFFFFFF"
+        android:textSize="14sp" />
+      
+      <ImageView
+        android:id="@+id/image_iconify1"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginRight="240dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginBottom="15dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_iconify1" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:id="@+id/container_group3"
+      android:layout_width="match_parent"
+      android:layout_height="115dp"
+      android:layout_marginLeft="31dp"
+      android:layout_marginRight="31dp"
+      android:layout_marginTop="236dp"
+      android:layout_gravity="top">
+      
+      <ImageView
+        android:id="@+id/image_rectangle2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image_rectangle2" />
+      
+      <ImageView
+        android:id="@+id/image_fs_dlyy_s_l1"
+        android:layout_width="94dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="9dp"
+        android:layout_gravity="left"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image_fs_dlyy_s_l1" />
+      
+      <TextView
+        android:id="@+id/text_cinema_paris_oujda1"
+        android:layout_width="99dp"
+        android:layout_height="26.1dp"
+        android:layout_marginLeft="218dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="82.95dp"
+        android:layout_marginBottom="5.95dp"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:lineHeight="12.1dp"
+        android:maxLines="2"
+        android:text="Cinema paris oujda"
+        android:textColor="#FFFFC107"
+        android:textSize="10sp" />
+      
+      <TextView
+        android:id="@+id/text_salle_18h2"
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:layout_marginLeft="253dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12.5dp"
+        android:layout_marginBottom="-0.5dp"
+        android:layout_gravity="top"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Salle 2  ,    : 18h30."
+        android:textColor="#FFF9F9FA"
+        android:textSize="8sp" />
+      
+      <TextView
+        android:id="@+id/text_the_doom1"
+        android:layout_width="83dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="9dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:lineHeight="48dp"
+        android:text="The Doom"
+        android:textColor="#FFF9FBFF"
+        android:textSize="16sp" />
+      
+      <TextView
+        android:id="@+id/text_dots1"
+        android:layout_width="187dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:lineHeight="16.94dp"
+        android:text="........................... ..........................."
+        android:textColor="#FFFFFFFF"
+        android:textSize="14sp" />
+      
+      <ImageView
+        android:id="@+id/image_iconify2"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginRight="240dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginBottom="15dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_iconify2" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:id="@+id/container_group4"
+      android:layout_width="match_parent"
+      android:layout_height="115dp"
+      android:layout_marginLeft="31dp"
+      android:layout_marginRight="31dp"
+      android:layout_marginBottom="332dp"
+      android:layout_gravity="bottom">
+      
+      <ImageView
+        android:id="@+id/image_rectangle3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image_rectangle3" />
+      
+      <ImageView
+        android:id="@+id/image_fs_dlyy_s_l2"
+        android:layout_width="94dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="9dp"
+        android:layout_gravity="left"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image_fs_dlyy_s_l2" />
+      
+      <TextView
+        android:id="@+id/text_cinema_paris_oujda2"
+        android:layout_width="99dp"
+        android:layout_height="26.1dp"
+        android:layout_marginLeft="218dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="82.95dp"
+        android:layout_marginBottom="5.95dp"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:lineHeight="12.1dp"
+        android:maxLines="2"
+        android:text="Cinema paris oujda"
+        android:textColor="#FFFFC107"
+        android:textSize="10sp" />
+      
+      <TextView
+        android:id="@+id/text_salle_18h3"
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:layout_marginLeft="253dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12.5dp"
+        android:layout_marginBottom="-0.5dp"
+        android:layout_gravity="top"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Salle 2  ,    : 18h30."
+        android:textColor="#FFF9F9FA"
+        android:textSize="8sp" />
+      
+      <TextView
+        android:id="@+id/text_the_doom2"
+        android:layout_width="83dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:lineHeight="48dp"
+        android:text="The Doom"
+        android:textColor="#FFF9FBFF"
+        android:textSize="16dp" />
+      
+      <TextView
+        android:id="@+id/text_dots2"
+        android:layout_width="187dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:lineHeight="16.94dp"
+        android:text="........................... ..........................."
+        android:textColor="#FFFFFFFF"
+        android:textSize="14sp" />
+      
+      <ImageView
+        android:id="@+id/image_iconify3"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginRight="240dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginBottom="15dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_iconify3" />
+    </FrameLayout>
+    
+    <FrameLayout
+      android:id="@+id/container_group5"
+      android:layout_width="match_parent"
+      android:layout_height="115dp"
+      android:layout_marginLeft="31dp"
+      android:layout_marginRight="31dp"
+      android:layout_marginBottom="193dp"
+      android:layout_gravity="bottom">
+      
+      <ImageView
+        android:id="@+id/image_rectangle4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image_rectangle4" />
+      
+      <ImageView
+        android:id="@+id/image_fs_dlyy_s_l3"
+        android:layout_width="94dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="9dp"
+        android:layout_gravity="left"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image_fs_dlyy_s_l3" />
+      
+      <TextView
+        android:id="@+id/text_cinema_paris_oujda3"
+        android:layout_width="99dp"
+        android:layout_height="26.1dp"
+        android:layout_marginLeft="218dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="82.95dp"
+        android:layout_marginBottom="5.95dp"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:lineHeight="12.1dp"
+        android:maxLines="2"
+        android:text="Cinema paris oujda"
+        android:textColor="#FFFFC107"
+        android:textSize="10sp" />
+      
+      <TextView
+        android:id="@+id/text_salle_18h4"
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:layout_marginLeft="253dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12.5dp"
+        android:layout_marginBottom="-0.5dp"
+        android:layout_gravity="top"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Salle 2  ,    : 18h30."
+        android:textColor="#FFF9F9FA"
+        android:textSize="8sp" />
+      
+      <TextView
+        android:id="@+id/text_the_doom3"
+        android:layout_width="83dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:lineHeight="48dp"
+        android:text="The Doom"
+        android:textColor="#FFF9FBFF"
+        android:textSize="16dp" />
+      
+      <TextView
+        android:id="@+id/text_dots3"
+        android:layout_width="187dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:lineHeight="16.94dp"
+        android:text="........................... ..........................."
+        android:textColor="#FFFFFFFF"
+        android:textSize="14sp" />
+      
+      <ImageView
+        android:id="@+id/image_iconify4"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginRight="240dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginBottom="15dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_iconify4" />
+    </FrameLayout>
+    
+    <ImageView
+      android:id="@+id/image_group"
+      android:layout_width="33dp"
+      android:layout_height="33dp"
+      android:layout_marginLeft="37dp"
+      android:layout_marginTop="34dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/image_group" />
+    
+    <TextView
+      android:id="@+id/text_mes_favoris"
+      android:layout_width="match_parent"
+      android:layout_height="31dp"
+      android:layout_marginLeft="129dp"
+      android:layout_marginRight="111dp"
+      android:layout_marginTop="18.5dp"
+      android:layout_marginBottom="-0.5dp"
+      android:layout_gravity="top"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="Mes Favoris"
+      android:textColor="#FFFFC107"
+      android:textSize="25dp" />
+    
+    <FrameLayout
+      android:id="@+id/container_group6"
+      android:layout_width="359dp"
+      android:layout_height="match_parent"
+      android:layout_marginRight="18dp"
+      android:layout_marginTop="677dp"
+      android:layout_marginBottom="69dp"
+      android:layout_gravity="right">
+      
+      <FrameLayout
+        android:id="@+id/container_group7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <FrameLayout
+          android:id="@+id/container_group8"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+          <ImageView
+              android:id="@+id/image_rectangle5"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/image_rectangle5"
+              android:baselineAlignBottom="true"
+              android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/image_frame"
+                android:layout_width="match_parent"
+                android:layout_height="30.7dp"
+                android:layout_gravity="top"
+                android:layout_marginLeft="13.19dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="0dp"
+                android:scaleType="centerCrop"
+                />
+
+        </FrameLayout>
+      </FrameLayout>
+
+      <FrameLayout
+          android:layout_width="58dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="top|left"
+          android:layout_marginLeft="77dp"
+          android:layout_marginTop="16dp"
+          android:layout_marginBottom="-12dp"
+          android:clipToPadding="false"
+          android:paddingBottom="12dp">
+
+        <LinearLayout
+            android:id="@+id/container_frame1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|top"
+            android:orientation="vertical">
+
+          <ImageView
+              android:id="@+id/image_iconify5"
+              android:layout_width="21dp"
+              android:layout_height="22dp"
+              android:scaleType="centerInside"
+              android:src="@drawable/image_iconify5" />
+
+          <TextView
+              android:id="@+id/container_frame"
+              android:layout_width="match_parent"
+              android:layout_height="14dp"
+              android:layout_gravity="left"
+              android:layout_marginLeft="0dp"
+              android:layout_marginTop="2dp"
+              android:layout_marginBottom="10dp"
+              android:gravity="center_horizontal|center_vertical"
+              android:includeFontPadding="false"
+              android:maxLines="1"
+              android:singleLine="true"
+              android:text="Recherche"
+              android:textColor="#FFFFFFFF"
+              android:textSize="10sp" />
+        </LinearLayout>
+
+      </FrameLayout>
+      
+      <TextView
+        android:id="@+id/container_frame2"
+        android:layout_width="43dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="left"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Films"
+        android:textColor="#FFFFFFFF"
+        android:textSize="10sp" />
+      
+      <ImageView
+        android:id="@+id/container_group9"
+        android:layout_width="50dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="158dp"
+        android:layout_marginRight="151dp"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="top"
+        android:scaleType="centerInside"
+        android:src="@drawable/container_group9" />
+      
+      <ImageView
+        android:id="@+id/image_frame1"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="312dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="17dp"
+        android:layout_gravity="top"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_frame1" />
+
+      <TextView
+          android:id="@+id/text_profile"
+          android:layout_width="match_parent"
+          android:layout_height="11dp"
+          android:layout_marginLeft="300dp"
+          android:layout_marginTop="40dp"
+          android:layout_marginRight="16dp"
+          android:layout_marginBottom="12dp"
+          android:gravity="center_horizontal|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Profile"
+          android:textColor="#FFFFFFFF"
+          android:textSize="10sp" />
+      
+      <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="208dp"
+        android:layout_marginRight="67dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginBottom="12dp"
+        android:clipToPadding="false"
+        android:paddingBottom="7dp">
+
+          <TextView
+              android:id="@+id/text_historique"
+              android:layout_width="match_parent"
+              android:layout_height="14dp"
+              android:layout_gravity="top|left"
+              android:layout_marginLeft="2dp"
+              android:layout_marginTop="5dp"
+              android:layout_marginBottom="-7dp"
+              android:gravity="center_horizontal|center_vertical"
+              android:includeFontPadding="false"
+              android:maxLines="1"
+              android:singleLine="true"
+              android:text="Historique"
+              android:textColor="#F4F4F4"
+              android:textSize="10sp" />
+      </FrameLayout>
+
+      <ImageView
+          android:id="@+id/image_iconify7"
+          android:layout_width="24dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="top"
+          android:layout_marginLeft="240dp"
+          android:layout_marginTop="15dp"
+          android:layout_marginRight="95dp"
+          android:foregroundTint="#FFFFFF"
+          android:scaleType="centerInside"
+          android:src="@drawable/image_iconify7"
+          />
+      
+      <ImageView
+        android:id="@+id/image_shape"
+        android:layout_width="18dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_shape" />
+    </FrameLayout>
+  </FrameLayout>
+</FrameLayout>
